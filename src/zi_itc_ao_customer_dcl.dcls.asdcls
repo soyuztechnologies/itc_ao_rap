@@ -1,0 +1,11 @@
+@EndUserText.label: 'Create a safe for our customer data'
+@MappingRole: true
+define role ZI_ITC_AO_CUSTOMER_DCL {
+    grant 
+        select
+            on
+                ZI_ITC_AO_CUSTOMER
+                    where
+                        (Country) = aspect pfcg_auth('ZITC_BUPA', 'ZITC_CTRY', ACTVT = '03');
+                        
+}

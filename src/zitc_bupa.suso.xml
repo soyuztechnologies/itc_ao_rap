@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SUSO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOBJ>
+    <OBJCT>ZITC_BUPA</OBJCT>
+    <FIEL1>ZITC_CTRY</FIEL1>
+    <FIEL2>ACTVT</FIEL2>
+    <OCLSS>ZCDS</OCLSS>
+   </TOBJ>
+   <TOBJT>
+    <LANGU>E</LANGU>
+    <OBJECT>ZITC_BUPA</OBJECT>
+    <TTEXT>Auth object to control permissions for BUPA</TTEXT>
+   </TOBJT>
+   <TOBJVORFLG>
+    <OBJCT>ZITC_BUPA</OBJCT>
+    <FLAG3>N</FLAG3>
+    <FLAG4>A</FLAG4>
+    <FLAG5>A</FLAG5>
+   </TOBJVORFLG>
+   <TACTZ>
+    <TACTZ>
+     <BROBJ>ZITC_BUPA</BROBJ>
+     <ACTVT>03</ACTVT>
+    </TACTZ>
+   </TACTZ>
+  </asx:values>
+ </asx:abap>
+</abapGit>

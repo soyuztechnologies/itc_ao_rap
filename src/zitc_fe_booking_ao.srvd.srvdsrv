@@ -1,0 +1,11 @@
+@EndUserText.label: 'Service definition analytics'
+define service ZITC_FE_BOOKING_AO {
+  expose ZITC_AO_C_BOOKING_ANALYTICS as Booking;
+  expose ZITC_AO_I_TRAVEL_ANALYTICS  as Travel;
+  expose ZITC_AO_I_FE_CONN           as Connection;
+  expose ZITC_AO_I_FE_FLIG           as Flight;
+  expose ZITC_AO_I_FE_CARR           as Airline;
+  expose I_Currency                  as Currency;
+  expose /DMO/I_Customer             as Customer;
+  expose /DMO/I_Agency               as Agency;
+}
